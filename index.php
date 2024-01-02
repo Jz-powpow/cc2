@@ -18,7 +18,7 @@ Note -⟩ We Only Accept Upi And Crytpo</b>");
 
 $nopre = urlencode("<b>YOU NEED TO BE PREMIUM TO USE THIS COMMAND.
 Hit /buy to purchase</b>");
-$botToken =  "<Bottoken>";
+$botToken =  "6973378210:AAG9WARDLIVfvmRZ8QQ6tsJdyUCvcGtyO1s";
 $website = "https://api.telegram.org/bot".$botToken;
 $update = file_get_contents('php://input');
 echo $update;
@@ -130,7 +130,7 @@ $freecommands = urlencode("<b>->> <code>.credits</code> Know Your Available Cred
 ->> <code>.socks4</code> Get Socks4 Proxies
 ->> <code>.socks5</code> Get Socks5 Proxies
 
-Note-⟩ If you get any type of bugs in this bot please inform our team at @r0ld3xrobot</b>");
+Note-⟩ If you get any type of bugs in this bot please inform our team at @hexnynejz</b>");
 $free = json_encode($keyboard);
         file_get_contents("https://api.telegram.org/bot<Bottoken>/editMessageText?chat_id=$cchatid2&text=$freecommands&message_id=$cmessage_id2&parse_mode=HTML&reply_markup=$free");
 
@@ -139,16 +139,16 @@ if ($cdata2 == "buy"){
 
     $keyboard = [
     'inline_keyboard' => [
-         [['text' => 'Buy Now', 'url' => 'https://t.me/r0ld3x'], 
+         [['text' => 'Buy Now', 'url' => 'https://t.me/hexnynejz'], 
          ['text' => 'Premium', 'callback_data' => 'paid'],
          ['text' => 'Finalize', 'callback_data' => 'end']]
         ]];
 $freecommands = urlencode("<b>Use <code>.credits</code> Know Your Available Credits
--> 100 CREDITS + PREMIUM ACCESS - 5$
--> 300 CREDITS + PREMIUM ACCESS - 10$
+-> 100 CREDITS + PREMIUM ACCESS - 3$
+-> 300 CREDITS + PREMIUM ACCESS - 8$
 -> 500 CREDITS + PREMIUM ACCESS - 15$
 -> 1000 CREDITS + PREMIUM ACCESS - 25$
-Note-⟩ We Only Accept [UPI][GIFT CARDS][CRYTPO]</b>");
+Note-⟩ We Only Accept [CRYTPO]</b>");
 $free = json_encode($keyboard);
         file_get_contents("https://api.telegram.org/bot<Bottoken>/editMessageText?chat_id=$cchatid2&text=$freecommands&message_id=$cmessage_id2&parse_mode=HTML&reply_markup=$free");
 
@@ -191,23 +191,23 @@ bot('sendmessage', [
 HEY <a href='tg://user?id=$gId'>$newfirstname</a>
 WELCOME TO $chatname and chat id of this group is  <code>$chatId</code> and your id is <code>$gId</code>
 
-THIS BOT IS MADE WITH ♥️ BY  <code>@r0ld3x</code> </b>",
+THIS BOT IS MADE WITH ♥️ BY  <code>@hexnynejz</code> </b>",
  'parse_mode'=>'HTML',
  'reply_markup' => $free,
  ]);
         exit();
 }
 
-$premium_id = (array("1792903396","1317173146"));
-$premiumgp = (array("-1001320804136","-1001552296979","-1001300027599","-1001298504199","-1001434792768"));
+$premium_id = (array("6321377431"));
+$premiumgp = (array("-1002010981744"));
         $keyboard = json_encode([
 'inline_keyboard' => [
-[['text' => "OWNER", 'url' => "https://t.me/r0ld3x"],]
+[['text' => "OWNER", 'url' => "https://t.me/hexnynejz"],]
 ]]);
                 $keyboard1 = json_encode([
 'inline_keyboard' => [
-[['text' => "CHANNEL", 'url' => "https://t.me/RoldexVerse"],
-['text' => "GROUP", 'url' => "https://t.me/RoldexVerseChats"],]
+[['text' => "CHANNEL", 'url' => "https://t.me/"],
+['text' => "GROUP", 'url' => "https://t.me/"],]
 ]]);
 
 // if(!in_array($chatId, $premiumgp)){
