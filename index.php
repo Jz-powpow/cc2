@@ -9,8 +9,8 @@ $noreg = urlencode ("<b>[ALERT] YOU DON'T REGISTERED YOURSELF. PLEASE REGISTER Y
 $nocredits = urlencode ("<b>️[ALERT] YOU DON'T HAVE SUFFICIENT CREDITS TO USE ME. 
 •• RECHARGE NOW BY HITTING /buy</b>");
 $buyit = urlencode("<b>Use <code>.credits</code> Know Your Available Credits
--> 100 CREDITS + PREMIUM ACCESS - 5$
--> 300 CREDITS + PREMIUM ACCESS - 10$
+-> 100 CREDITS + PREMIUM ACCESS - 3$
+-> 300 CREDITS + PREMIUM ACCESS - 8$
 -> 500 CREDITS + PREMIUM ACCESS - 15$
 -> 1000 CREDITS + PREMIUM ACCESS - 25$
 >> PING <code>@r0ld3x</code> For Purchasing
